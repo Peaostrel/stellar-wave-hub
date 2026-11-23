@@ -1,0 +1,23 @@
+{
+  "name": "Nirium",
+  "description": "Nirium is a set of open-source developer tools for making payments and recording verifiable evidence in applications built around the Stellar network. It focuses on two problems that are easy to confuse. First, autonomous agents need to pay for APIs or services without receiving unlimited authority over their operator’s wallet. Second, businesses need to preserve evidence of what was authorized or declared, including actions that never became blockchain transactions. Stellar can verify a transfer, but a transfer by itself does not prove why an agent made it or whether someone refused a request.\n\nFor payments, Nirium’s TypeScript and Python SDKs expose x402 integration for paid HTTP endpoints and clients. The SDKs include configurable spending limits, with a conservative default for agent-initiated USDC purchases, and an experimental policy callback that can deny or defer a signature. Settlement uses Stellar transfers and an external x402 facilitator. That means the public ledger is the source of truth for a completed payment, while the policy decision remains an off-chain concern. A hosted development API and CLI provide examples, and the public documentation links transactions and explicit verification instructions.\n\nFor evidence, Nirium produces tamper-evident Audit Trail receipts. An application hashes a statement or result, can sign it with its own Stellar key, and stores the receipt content through IPFS. Independent verification can compare the CID, hash and signature. This can show that a particular signer declared a particular record and that the record has not changed. It does not establish that the underlying statement was true, and an IPFS receipt should not be represented as a Stellar ledger record. The design also allows a refused payment or an approval decision to leave verifiable evidence even when there is no transaction hash.\n\nNirium’s treasury experiments use Soroban differently. Its own NiriumVault contract is a testnet prototype that the project explicitly says has not completed an independent audit. The separate mainnet treasury demonstration instead interacts with a client-owned DeFindex vault through a restricted RebalanceManager role. Its operation is invite-only, and its documentation states that broader access awaits legal review. Those distinctions matter: it would be misleading to describe the testnet contract as production-ready or to treat controlled integration tests as organic customer adoption.\n\nThe open-source repositories include SDKs, a CLI, an MCP server, contract code, automated checks, and independently inspectable evidence. Public GitHub activity shows multiple contributors and two named code maintainers, but it does not by itself establish an incorporated company or independent security approval. Nirium fits the Infrastructure category because it provides reusable payment and evidence rails to other applications rather than being a consumer wallet.",
+  "category": "Infrastructure",
+  "stellar_account_id": "GCLBBPON256CV7ATEHM5B54BOKNC7GX53MBINJ42MHVXGDMMZ3ZWKBHP",
+  "stellar_contract_id": "",
+  "stellar_network": "mainnet",
+  "tags": "stellar, soroban, x402, payments, agentic-payments, audit-trail, ipfs, developer-tools, treasury, sdk",
+  "website_url": "https://nirium.xyz",
+  "github_url": "https://github.com/nirium-protocol/nirium",
+  "github_repos": [
+    {
+      "label": "SDKs, CLI and Wave project",
+      "url": "https://github.com/nirium-protocol/nirium"
+    },
+    {
+      "label": "Soroban contracts and application",
+      "url": "https://github.com/nirium-protocol/nirium-core"
+    }
+  ],
+  "logo_url": "https://raw.githubusercontent.com/nirium-protocol/nirium-core/f66c806033840761bc0e1a482f59dd3e56f5ee36/apps/web/public/brand/icon-solid-512.png",
+  "research_images": []
+}

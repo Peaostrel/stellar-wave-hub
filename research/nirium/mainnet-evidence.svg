@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="title description">
+  <title id="title">Nirium — read-only Stellar Mainnet Horizon verification</title>
+  <desc id="description">Research rendering of the verified mainnet account, USDC trustline, and a successful Soroban transaction from 18 November 2026. Not a screenshot of the explorer.</desc>
+  <rect width="1280" height="720" fill="#0c1522"/>
+  <rect x="50" y="46" width="1180" height="625" rx="22" fill="#152435" stroke="#345469" stroke-width="2"/>
+  <text x="86" y="103" fill="#98e6d2" font-size="25" font-weight="600" font-family="Arial,sans-serif">NIRIUM  /  ON-CHAIN EVIDENCE</text>
+  <text x="86" y="158" fill="#ffffff" font-size="42" font-weight="700" font-family="Arial,sans-serif">Stellar Mainnet account verification</text>
+  <rect x="86" y="187" width="214" height="37" rx="18" fill="#15594f"/>
+  <text x="105" y="211" fill="#d7fff1" font-size="18" font-weight="600" font-family="Arial,sans-serif">READ-ONLY CHECK</text>
+  <text x="86" y="279" fill="#a9bbc9" font-size="19" font-family="Arial,sans-serif">Public Stellar account</text>
+  <text x="86" y="313" fill="#e8f5fa" font-size="21" font-family="monospace">GCLBBPON256CV7ATEHM5B54BOKNC7GX53MBINJ42MHVXGDMMZ3ZWKBHP</text>
+  <line x1="86" y1="342" x2="1193" y2="342" stroke="#345469"/>
+  <text x="86" y="389" fill="#a9bbc9" font-size="19" font-family="Arial,sans-serif">Account state</text>
+  <text x="86" y="427" fill="#98e6d2" font-size="23" font-weight="700" font-family="Arial,sans-serif">EXISTS</text>
+  <text x="277" y="427" fill="#e8f5fa" font-size="19" font-family="Arial,sans-serif">Native XLM balance and USDC trustline returned by Horizon</text>
+  <line x1="86" y1="454" x2="1193" y2="454" stroke="#345469"/>
+  <text x="86" y="495" fill="#a9bbc9" font-size="19" font-family="Arial,sans-serif">Verified transaction</text>
+  <text x="86" y="527" fill="#e8f5fa" font-size="19" font-family="monospace">ed5a41cf0b504a674ac621845767994d333aa253b9f9f3f7c5133df389e6d5d4</text>
+  <text x="86" y="565" fill="#98e6d2" font-size="20" font-weight="700" font-family="Arial,sans-serif">SUCCESSFUL</text>
+  <text x="255" y="565" fill="#e8f5fa" font-size="20" font-family="Arial,sans-serif">18 Nov 2026, 19:12:43 UTC   ·   ledger 65,548,624</text>
+  <text x="86" y="604" fill="#a9bbc9" font-size="18" font-family="Arial,sans-serif">Operation: invoke_host_function (Soroban)  ·  Source: Horizon REST API</text>
+  <text x="86" y="648" fill="#7893a8" font-size="16" font-family="Arial,sans-serif">Rendered research summary, 23 Nov 2026. Not an explorer screenshot or security audit.</text>
+</svg>

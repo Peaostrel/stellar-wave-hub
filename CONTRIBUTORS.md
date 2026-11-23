@@ -53,6 +53,18 @@ Replace `YOUR_GITHUB_USERNAME`, `Your Name`, `YOUR_X_HANDLE`, and the role/proje
 
 <!-- CONTRIBUTORS-START -->
 
+<div style="display:inline-block;width:130px;vertical-align:top;text-align:center;margin:8px">
+  <a href="https://github.com/Peaostrel">
+    <img src="https://github.com/Peaostrel.png" width="80" style="border-radius:50%" alt="Peaostrel" />
+    <br />
+    <sub><b>Peaostrel</b></sub>
+  </a>
+  <br />
+  <a href="https://github.com/Peaostrel"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github&amp;logoColor=white&amp;style=flat-square" alt="GitHub" /></a>
+  <br />
+  <sub>Researcher — Nirium (#335)</sub>
+</div>
+
 <div
 	style="display:inline-block;width:130px;vertical-align:top;text-align:center;margin:8px"
 >
